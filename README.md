@@ -7,15 +7,15 @@ You're absolutely right — GitHub (and other markdown renderers) won’t show t
 
 A simple desktop tool built in Python to monitor and detect unauthorized changes, deletions, or tampering in your files using hash values.
 
-## C FOLDER STRUCTURE
+# FOLDER STRUCTURE
 
 Organize your files like this:
 C:\FileIntegrityChecker
-├── dist
-│   └── file\_integrity\_gui.exe         <-- Your compiled EXE (via PyInstaller)
-├── hashes.json                        <-- Auto-generated when running
-├── log.txt                            <-- Auto-generated when checking
-└── file\_integrity\_gui.py              <-- Your Python script
+- ├── dist
+- │   └── file\_integrity\_gui.exe         <-- Your compiled EXE (via PyInstaller)
+- ├── hashes.json                        <-- Auto-generated when running
+- ├── log.txt                            <-- Auto-generated when checking
+- └── file\_integrity\_gui.py              <-- Your Python script
 
 # FEATURES
 - Detects if any file is modified, deleted, or replaced  
@@ -43,12 +43,12 @@ C:\FileIntegrityChecker
    python file_integrity_gui.py
 > *Make sure you have `tkinter` installed (usually included by default in Python).*
 
-# Option 2: Run the `.exe` File (No Python Needed)
+## Option 2: Run the `.exe` File (No Python Needed)
 1. Go to the `dist/` folder.
 2. Double-click on `file_integrity_gui.exe`.
 3. It will open the GUI instantly like any Windows application.
 
-# Option 3: Run via CMD using `.exe`
+## Option 3: Run via CMD using `.exe`
 1. Open Command Prompt.
 2. Navigate to the `dist/` folder:
    cd C:\FileIntegrityChecker\dist
