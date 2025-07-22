@@ -10,12 +10,12 @@ A simple desktop tool built in Python to monitor and detect unauthorized changes
 # FOLDER STRUCTURE
 
 Organize your files like this:
-C:\FileIntegrityChecker
-- ├── dist
-- │   └── file\_integrity\_gui.exe         <-- Your compiled EXE (via PyInstaller)
-- ├── hashes.json                        <-- Auto-generated when running
-- ├── log.txt                            <-- Auto-generated when checking
-- └── file\_integrity\_gui.py              <-- Your Python script
+> C:\FileIntegrityChecker
+* ├── dist
+* │   └── file\_integrity\_gui.exe         <-- Your compiled EXE (via PyInstaller)
+* ├── hashes.json                        <-- Auto-generated when running
+* ├── log.txt                            <-- Auto-generated when checking
+* └── file\_integrity\_gui.py              <-- Your Python script
 
 # FEATURES
 - Detects if any file is modified, deleted, or replaced  
